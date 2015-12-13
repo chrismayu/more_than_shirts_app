@@ -19,6 +19,7 @@ gem 'devise'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'thin'
+gem 'heroku'
 group :development do
   gem 'better_errors'
   gem 'guard-bundler'
