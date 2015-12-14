@@ -1,0 +1,32 @@
+ 
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+
+<h1><%= @message.subject %></h1>
+
+<p>
+ 
+
+Hello,
+<br><br>
+You have received a message from <%= @message.name %> regarding "<%= @message.subject %>"
+<br><br>
+<%= @message.name %> writes: <br>
+ 
+
+<br><br>
+*Please be sure to reply to: <%= @message.email %> or phone @  <%= @message.phone %>
+<br><br>
+Thank You,
+<br><br>
+Chris Mailloux Website
+
+</p>
+
+ </body>
+ 
+ </html>
